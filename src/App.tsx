@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Canvas
+        shadows={ false }
         dpr={[1, 2]}
         gl={{
           antialias: true,

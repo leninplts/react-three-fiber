@@ -25,6 +25,18 @@ html, body, #root {
   background: lightskyblue;
 }
 
+.label > div {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 0.675rem;
+  user-select: none;
+  overflow: hidden;
+  width: max-content;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
